@@ -1,5 +1,5 @@
 name: Opal
 author: skyss0fly
-main: skyss0fly/Opal/Main;
+main: skyss0fly/Opal/Main
 version: 1.0
 api: 5.0.0
