@@ -1,7 +1,7 @@
 <?php
 namespace skyss0fly\Opal;
 use pocketmine\player\Player;
-use pocketmine\event\PlayerChatEvent;
+use pocketmine\event\player\PlayerChatEvent;
 use pocketmine\plugin\PluginBase;
 use pocketmine\utils\TextFormat;
 
