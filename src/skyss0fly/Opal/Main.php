@@ -10,7 +10,7 @@ class Main extends PluginBase {
   }
  public function onChat(PlayerChatEvent $event) {
     $strings = array( 'What?', 'Yesterday was Cheese Day!', "A potato flew around my room", "hold on guys, gotta walk my fish rq", "ok 19 dollar fortnite card", "when?", "Crazy? i was crazy once", "Did somebody say Menulog?", "Hey baba grill", "ok who moved my secret stash?", "guys my fish just invented a time machine", "cap", "when the imposter is sus", "GOD JUST SHUT UP!", "UwU", "change your underwear bro, i can smell them thru the screen" ); 
-    $key = array_rand($strings); 
+    $key = array_rand($strings[rand(1,16)]); 
     $this->getServer()->broadcastMessage(TEXTFORMAT::BOLD . TEXTFORMAT::YELLOW . "[" .TEXTFORMAT::RED . "OPAL" . TEXTFORMAT::YELLOW . "] " . TEXTFORMAT::GREEN . $strings[$key]);  
 }
 }
